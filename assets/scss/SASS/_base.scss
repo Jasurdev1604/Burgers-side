@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+a{
+    text-decoration:none;
+    color:inherit;
+}
+ul{
+    list-style:none;
+}
+button{
+    cursor:pointer;
+}
+@mixin open400{
+   font-weight:400;
+   font-family:'Open Sans', sans-serif;
+}
+@mixin open600{
+    font-weight:600;
+    font-family:'Open Sans', sans-serif;
+}
+@mixin open700{
+    font-weight:700;
+    font-family:'Open Sans', sans-serif;
+}
+@mixin tinod400{
+    font-weight:400;
+    font-family:'Tinos' , serif;
+}
+.container{
+    margin:0 auto;
+    padding:20px;
+    width:1090px;
+}
